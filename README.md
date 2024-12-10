@@ -1,5 +1,5 @@
 # TP_Programmation_Systeme_Pressard_Akkoca
-Lap of IT Major by PRESSARD Clovis and AKKOCA Erwan 
+Lab of IT Major by PRESSARD Clovis and AKKOCA Erwan 
 
 Clovis PRESSARD 
 

@@ -14,13 +14,12 @@ void parse_command(char *input, char **args) {
     //Variables
     char *token = strtok(input, " ");
     int i = 0;
-    
-    // Diviser la chaîne en parties et stocker chaque partie dans le tableau d'arguments
+
     while (token != NULL) {
         args[i++] = token;
         token = strtok(NULL, " ");
     }
-    args[i] = NULL;  // Assurez-vous que la liste des arguments se termine par NULL
+    args[i] = NULL; 
 }
 
 

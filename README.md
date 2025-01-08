@@ -188,14 +188,48 @@ Objectifs:
 
 
 
-1-
+1- In this part, we want to obtain request information:
+
+./gettftp <host> <file>
+Getting file '<file>' from server '<host>'
+./puttftp <host> <file>
+Putting file '<file>' from server '<host>'
 
 --------------------------------------- 
 
-2-
+2-We search to obtain the server's adress:
+
+Then by doing for example:
+
+./gettftp gettftp 127.0.0.1 1069
+
+We obtain:
+Getting file '1069' from server '127.0.0.1'
+Addresses for 127.0.0.1:
+  IPv4: 127.0.0.1
+By doing:
+./puttftp puttftp 127.0.0.1 1069
+We obtain:
+Putting file '1069' to server '127.0.0.1'
+Addresses for 127.0.0.1:
+  IPv4: 127.0.0.1
+
 
 --------------------------------------- 
 
-3-
+3- We want to reserve a connection socket to the server:
+
+./enseaTFTP_Q3 gettftp 127.0.0.1 ensea.png
+
+Getting file 'ensea.png' from server '127.0.0.1'
+
+Addresses for 127.0.0.1:
+
+  IPv4: 127.0.0.1
+
+Successfully created UDP socket for TFTP communication.
+
+Fetching file 'ensea.png'...
+
 
 --------------------------------------- 
